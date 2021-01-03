@@ -4,9 +4,9 @@
 
 # Pieces
 ## Queen Bee
-<img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/bee.png" />
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/bee.png" />
 
 ## Stag Beetle
-<img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/beetle.png" />
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/beetle.png" />
 
 *More pieces coming soon*
