@@ -13,7 +13,6 @@ module honeycomb(words="") {
     }
     linear_extrude(height=1)
         text(words, font="Roboto:style=Bold", size=1.8, valign="center", halign="center");
-//    hexagon(d=3.4, h=2);
 }
 
 projection() {
