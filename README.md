@@ -9,4 +9,14 @@
 ## Stag Beetle
 <img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/beetle.png" />
 
+## Green Grasshopper
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/grasshopper.png" />
+
+## Carpenter Ant
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/ant.png" />
+
+## Recluse Spider
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/spider.png" />
+
+
 *More pieces coming soon*
