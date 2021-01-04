@@ -9,4 +9,6 @@ module tile() {
             cylinder($fn=6, center=true, d=28, h=2);
     }
 }
-tile();
+rotate([0, 180, 0]) {
+    tile();
+}
