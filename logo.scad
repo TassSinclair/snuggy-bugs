@@ -16,18 +16,18 @@ module honeycomb(words="") {
 }
 
 projection() {
-    honeycomb("s");
+    honeycomb("t");
     translate([horizontal_offset, 0, 0]) {
-        honeycomb("n");
+        honeycomb("o");
     }
     translate([horizontal_offset * 2, 0, 0]) {
         honeycomb("u");
     }
     translate([horizontal_offset * 3, 0, 0]) {
-        honeycomb("g");
+        honeycomb("c");
     }
     translate([horizontal_offset * 4, 0, 0]) {
-        honeycomb("g");
+        honeycomb("h");
     }
     translate([horizontal_offset * 5, 0, 0]) {
         honeycomb("y");
