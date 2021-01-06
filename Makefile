@@ -1,4 +1,4 @@
-BUGS=bee beetle grasshopper spider ant
+BUGS=bee beetle grasshopper spider ant butterfly
 
 all: bugs tiles
 

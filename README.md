@@ -18,5 +18,7 @@
 ## Recluse Spider
 <img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/spider.png" />
 
+## Morpho Butterfly
+<img src="https://raw.githubusercontent.com/tasssinclair/snuggy-bugs/main/butterfly.png" />
 
 *More pieces coming soon*
