@@ -1,12 +1,18 @@
 BUGS=bee beetle grasshopper spider ant butterfly
 
-all: bugs tiles
+all: templates inserts tiles
 
-bugs:
+templates:
+	openscad -o insert.png --render -D ''insert=\"\"'' insert.scad ; \
+	convert insert.png -transparent "#ffffe5" -trim insert.png ; \
+	openscad -o tile.png --render -D ''tile=\"\"'' tile.scad ; \
+	convert tile.png -transparent "#ffffe5" -trim tile.png ; \
+
+inserts:
 	for f in ${BUGS}; do \
-		openscad -o $$f.stl -D ''bug=\"$$f\"'' bug.scad ; \
-		openscad -o $$f.png --render -D ''bug=\"$$f\"'' bug.scad ; \
-		convert $$f.png -transparent "#ffffe5" -trim $$f.png ; \
+		openscad -o $$f-insert.stl -D ''insert=\"$$f-insert\"'' insert.scad ; \
+		openscad -o $$f-insert.png --render -D ''insert=\"$$f-insert\"'' insert.scad ; \
+		convert $$f-insert.png -transparent "#ffffe5" -trim $$f-insert.png ; \
 	done
 
 tiles:
