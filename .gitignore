@@ -1,1 +1,4 @@
+cura-options.txt
 *.DS_Store
+*.def.json
+*.gcode
